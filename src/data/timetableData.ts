@@ -784,7 +784,7 @@ export const timetableData: TimetableData[] = [
         timeSlot: '1:30-4:00',
         course: {
           name: 'Human Resourse Management',
-          code: 'CSC xxxx',
+          code: '',
           instructor: 'TAYYABA JAMALI',
           room: 'Room 405 (100-B)',
           type: 'Lecture'
