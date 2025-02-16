@@ -795,7 +795,7 @@ export const timetableData: TimetableData[] = [
         timeSlot: '4:00-6:30',
         course: {
           name: 'Lab: Database Systems',
-          code: 'CSCL xxxx',
+          code: 'CSCL xxx',
           instructor: 'Mariha Noor',
           room: 'Lab 3 (100-B)',
           type: 'Lab'
