@@ -517,7 +517,7 @@ export const timetableData: TimetableData[] = [
         day: 'Saturday',
         timeSlot: '4:00-6:30',
         course: {
-          name: 'Management Principles',
+          name: 'Intoduction to Management',
           code: 'CSC xxxx',
           instructor: 'Rizwan Ahmed',
           room: 'Room 309 (100-B)',
@@ -602,7 +602,7 @@ export const timetableData: TimetableData[] = [
         day: 'Saturday',
         timeSlot: '1:30-4:00',
         course: {
-          name: 'Management Principles',
+          name: 'Intoduction to Management',
           code: 'CSC xxxx',
           instructor: 'Rizwan Ahmed',
           room: 'Room 309 (100-B)',
@@ -698,7 +698,7 @@ export const timetableData: TimetableData[] = [
         day: 'Saturday',
         timeSlot: '4:00-6:30',
         course: {
-          name: 'Organizational Behavior',
+          name: 'Human Resourse Management',
           code: 'CSC xxxx',
           instructor: 'TAYYABA JAMALI',
           room: 'Room 405 (100-B)',
@@ -783,7 +783,7 @@ export const timetableData: TimetableData[] = [
         day: 'Saturday',
         timeSlot: '1:30-4:00',
         course: {
-          name: 'Organizational Behavior',
+          name: 'Human Resourse Management',
           code: 'CSC xxxx',
           instructor: 'TAYYABA JAMALI',
           room: 'Room 405 (100-B)',
