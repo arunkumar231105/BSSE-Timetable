@@ -973,7 +973,7 @@ export const timetableData: TimetableData[] = [
     schedule: [
       {
         day: 'Monday',
-        timeSlot: '1:30-4:00',
+        timeSlot: '10:45-1:15',
         course: {
           name: 'Communication and Presentation Skills ',
           code: 'CSC 2101',
@@ -984,7 +984,7 @@ export const timetableData: TimetableData[] = [
       },
       {
         day: 'Monday',
-        timeSlot: '4:00-6:00',
+        timeSlot: '1:30-4:00',
         course: {
           name: 'Probability and Statistics    ',
           code: 'CSC 1206 ',
@@ -1054,7 +1054,7 @@ export const timetableData: TimetableData[] = [
         course: {
           name: ' Object Oriented Programming Techniques',
           code: '',
-          instructor: 'Ms. Soha',
+          instructor: 'Ms. Arsalan',
           room: '(100-B)',
           type: 'Lab'
         }
@@ -1063,9 +1063,9 @@ export const timetableData: TimetableData[] = [
         day: 'Saturday',
         timeSlot: '10:45-1:15',
         course: {
-          name: 'Digital Logic Design',
+          name: 'lab:Digital Logic Design',
           code: '',
-          instructor: 'Mr. Sheeraz Rauf',
+          instructor: 'Mr. Aitizaz Ahsan Khan',
           room: 'Lab ???',
           type: 'Lab'
         }
@@ -1084,7 +1084,7 @@ export const timetableData: TimetableData[] = [
     schedule: [
       {
         day: 'Monday',
-        timeSlot: '8:00-11:00',
+        timeSlot: '8:00-10:30',
         course: {
           name: 'Communication and Presentation Skills ',
           code: 'CSC 2101',
@@ -1143,7 +1143,7 @@ export const timetableData: TimetableData[] = [
         course: {
           name: 'Lab: Digital Logic Design ',
           code: '',
-          instructor: 'Mr. Fareeduzaman',
+          instructor: 'Mr. Yarukh Sohail',
           room: '(100-B)',
           type: 'Lab'
         }
@@ -1176,7 +1176,7 @@ export const timetableData: TimetableData[] = [
         course: {
           name: 'Lab: Object Oriented Programming Techniques',
           code: '',
-          instructor: ' Ms Soha',
+          instructor: ' Ms Arsalan',
           room: 'Lab ???',
           type: 'Lab'
         }
@@ -1194,11 +1194,11 @@ export const timetableData: TimetableData[] = [
     schedule: [
       {
         day: 'Monday',
-        timeSlot: '8:00-11:00',
+        timeSlot: '9:00-11:00',
         course: {
           name: 'Ideology and Constitution of Pakistan',
           code: 'CSC 1211',
-          instructor: 'Dr. Umair Rafiq',
+          instructor: 'Faisal Naveed',
           room: 'Room-305 (100-B)',
           type: 'Lecture'
         }
@@ -1253,7 +1253,7 @@ export const timetableData: TimetableData[] = [
         course: {
           name: 'Lab: Digital Logic Design ',
           code: '',
-          instructor: '',
+          instructor: 'Mr. Yarukh Sohail',
           room: '(100-B)',
           type: 'Lab'
         }
@@ -1316,11 +1316,11 @@ export const timetableData: TimetableData[] = [
       },
       {
         day: 'Tuesday',
-        timeSlot: '3:00-6:00',
+        timeSlot: '10:45-12:45',
         course: {
           name: 'Digital Logic Design',
           code: 'CSC 1207 ',
-          instructor: 'Atif Saeed',
+          instructor: 'Ismail Mansoor',
           room: 'Room-410 (100-B)',
           type: 'Lecture'
         }
@@ -1338,7 +1338,7 @@ export const timetableData: TimetableData[] = [
       },
       {
         day: 'Wednesday',
-        timeSlot: '4:00-6:30',
+        timeSlot: '1:30-4:00',
         course: {
           name: ' Probability and Statistics',
           code: '',
@@ -1386,7 +1386,7 @@ export const timetableData: TimetableData[] = [
         course: {
           name: 'Lab: Digital Logic Design ',
           code: '',
-          instructor: 'Mr. Sheeraz Rauf',
+          instructor: 'Mr. Aitizaz Ahsan Khan',
           room: '(100-B)',
           type: 'Lab'
         }
@@ -1435,6 +1435,17 @@ export const timetableData: TimetableData[] = [
         }
       },
       {
+        day: 'Monday',
+        timeSlot: '1:30-4:00',
+        course: {
+          name: 'Lab: Computer Networks and Data Communications',
+          code: '',
+          instructor: '',
+          room: '(100-B)',
+          type: 'Lab'
+        }
+      },
+      {
         day: 'Wednesday',
         timeSlot: '8:00-10:30',
         course: {
@@ -1480,7 +1491,7 @@ export const timetableData: TimetableData[] = [
       },
       {
         day: 'Saturday',
-        timeSlot: '1:30-4:00',
+        timeSlot: '4:00-6:30',
         course: {
           name: 'Lab: Database Systems',
           code: '',
@@ -1489,17 +1500,7 @@ export const timetableData: TimetableData[] = [
           type: 'Lab'
         }
       },
-      {
-        day: 'Saturday',
-        timeSlot: '4:00-6:30',
-        course: {
-          name: 'Lab: Computer Networks and Data Communications',
-          code: '',
-          instructor: 'Mashal Naeem',
-          room: '(100-B)',
-          type: 'Lab'
-        }
-      }
+      
     ]
   },
   
@@ -1522,13 +1523,13 @@ export const timetableData: TimetableData[] = [
           }
         },
         {
-          day: 'Tuesday',
+          day: 'Monday',
           timeSlot: '8:00-11:00',
           course: {
             name: 'Agent Based Modeling',
             code: 'AIC 4703',
             instructor: 'Dr.Mughair Aslam Bhatt',
-            room: 'Room-208 (100-B)',
+            room: 'Room-402 (100-B)',
             type: 'Lecture'
           }
         },
@@ -1582,14 +1583,14 @@ export const timetableData: TimetableData[] = [
           course: {
             name: 'Lab: Computer Networks and Data Communications',
             code: '',
-            instructor: 'Muhammad Arsalan',
+            instructor: '',
             room: '(100-B)',
             type: 'Lab'
           }
         },
         {
           day: 'Saturday',
-          timeSlot: '4:00-6:30',
+          timeSlot: '1:30-4:00',
           course: {
             name: 'Lab: Database Systems',
             code: '',
@@ -1609,7 +1610,7 @@ export const timetableData: TimetableData[] = [
       section: 'A',
       schedule: [
         {
-          day: 'Monday',
+          day: 'Tuesday',
           timeSlot: '8:00-11:00',
           course: {
             name: 'Natural Language Processing',
@@ -1624,9 +1625,9 @@ export const timetableData: TimetableData[] = [
           day: 'Wednesday',
           timeSlot: '10:45-1:15',
           course: {
-            name: 'Software Engineering',
+            name: 'Deep Learning',
             code: '',
-            instructor: 'Ms. Farah Naz',
+            instructor: 'Dr. Shahid',
             room: 'ROOM - 208 (100-B)',
             type: 'Lecture'
           }
@@ -1646,9 +1647,9 @@ export const timetableData: TimetableData[] = [
           day: 'Thursday',
           timeSlot: '11:30-2:30',
           course: {
-            name: 'Deep Learning ',
+            name: 'Software Engineering',
             code: '',
-            instructor: 'Dr. Shahid',
+            instructor: 'Ms . Farah Naz',
             room: 'Room-46 (99-B)',
             type: 'Lecture' 
           }
@@ -1726,7 +1727,7 @@ export const timetableData: TimetableData[] = [
           course: {
             name: ' Information Security ',
             code: '',
-            instructor: 'Mr. Naveed Ghani',
+            instructor: 'Mr. Sanaullah Abbasi',
             room: '',
             type: 'Lecture' 
           }
