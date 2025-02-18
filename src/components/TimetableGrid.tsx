@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from "@vercel/analytics/react"
 import { Clock, GraduationCap, User } from 'lucide-react';
 import { Department, RomanNumeral, Section, Day, TimeSlot } from '../types/timetable';
 import { timetableData } from '../data/timetableData';
@@ -13,16 +14,32 @@ interface TimetableGridProps {
 
 const days: Day[] = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const timeSlots = [
+  '8:00-10:00',
+  '8:00-10:30',
   '8:00-11:00',
+  '8:00-1:00',
+  '8:30-10:30',
   '9:00-12:00',
+  '10:00-12:00',
   '10:00-1:00',
+  '10:30-12:30',
+  '10:30-1:00',
+  '10:45-1:15',
+  '11:30-1:30',
   '11:30-2:30',
-  '1:30-4:00',
+  '12:30-2:30',
+  '1:00-3:00',
   '1:15-4:15',
+  '1:30-4:00',
+  '3:00-5:00',
   '3:00-6:00',
+  '3:45-6:15',
+  '4:00-6:00',
   '4:00-6:30',
   '6:30-9:30'
 ];
+
+
 
 
 export default function TimetableGrid({

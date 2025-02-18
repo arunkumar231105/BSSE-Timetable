@@ -12,7 +12,7 @@ interface DepartmentSelectorProps {
   isDarkMode: boolean;
 }
 
-const departments: Department[] = ['BSSE'];
+const departments: Department[] = ['BSSE','BSAI'];
 const semesters: RomanNumeral[] = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
 const sections: Record<Department, Section[]> = {
   'BSSE': ['A', 'B', 'C', 'D'],
