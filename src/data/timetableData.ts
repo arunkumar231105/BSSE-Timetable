@@ -53,18 +53,18 @@ export const timetableData: TimetableData[] = [
       },
       {
         day: 'Wednesday',
-        timeSlot: '11:30-2:30',
+        timeSlot: '10:45-1:15',
         course: {
-          name: 'Digital Logic Design',
+          name: 'Lab:Digital Logic Design',
           code: 'CSCL xxxx',
-          instructor: 'Asher Tariq',
+          instructor: 'Mr. Zohaib Shoaib',
           room: 'DLD Lab (100-B)',
           type: 'Lab'
         }
       },
       {
         day: 'Wednesday',
-        timeSlot: '3:00-6:00',
+        timeSlot: '1:30-3:30',
         course: {
           name: 'Digital Logic Design',
           code: 'CSC xxxx',
@@ -97,7 +97,18 @@ export const timetableData: TimetableData[] = [
       },
       {
         day: 'Friday',
-        timeSlot: '9:00-12:00',
+        timeSlot: '8:00-11:00',
+        course: {
+          name: 'Lab: Fundamentals of Programming',
+          code: 'CSC1110',
+          instructor: 'Ammar Rashid Qureshi',
+          room: 'Room 108 (100-B)',
+          type: 'Lab'
+        }
+      },
+      {
+        day: 'Friday',
+        timeSlot: '3:00-6:00',
         course: {
           name: 'Algebraic Foundations and Applications in Computing 2',
           code: 'CSC1110',
@@ -105,7 +116,19 @@ export const timetableData: TimetableData[] = [
           room: 'Room 108 (100-B)',
           type: 'Lecture'
         }
+      },
+      {
+        day: 'Saturday',
+        timeSlot: '10:45-1:15',
+        course: {
+          name: 'Fundamentals of Programming',
+          code: 'CSC1110',
+          instructor: 'Shaheer Ahmed Khan',
+          room: 'Room 108 (100-B)',
+          type: 'Lecture'
+        }
       }
+      
     ]
   },
   // BSSE-II Section B
@@ -212,6 +235,28 @@ export const timetableData: TimetableData[] = [
           room: 'Room 108 (100-B)',
           type: 'Lecture'
         }
+      },
+      {
+        day: 'Saturday',
+        timeSlot: '10:45-1:15',
+        course: {
+          name: 'Fundamentals of Programming',
+          code: 'CSC1110',
+          instructor: 'Shaheer Ahmed Khan',
+          room: 'Room 108 (100-B)',
+          type: 'Lecture'
+        }
+      },
+      {
+        day: 'Friday',
+        timeSlot: '8:00-11:00',
+        course: {
+          name: 'Lab: Fundamentals of Programming',
+          code: 'CSC1110',
+          instructor: 'Ammar Rashid Qureshi',
+          room: 'Room 108 (100-B)',
+          type: 'Lab'
+        }
       }
     ]
   },
@@ -278,18 +323,18 @@ export const timetableData: TimetableData[] = [
       },
       {
         day: 'Wednesday',
-        timeSlot: '3:00-6:00',
+        timeSlot: '3:00-5:00',
         course: {
           name: 'Digital Logic Design',
           code: 'CSC xxxx',
-          instructor: 'Mr. Khalil',
+          instructor: 'Mr. Khalil ur Rehman',
           room: 'ROOM-405 (100-B)',
           type: 'Lecture'
         }
       },
       {
         day: 'Thursday',
-        timeSlot: '8:00-11:00',
+        timeSlot: '4:00-6:30',
         course: {
           name: 'Digital Logic Design',
           code: 'CSCL xxxx',
@@ -319,6 +364,28 @@ export const timetableData: TimetableData[] = [
           instructor: 'Mr. Abdul Haleem',
           room: 'Room 108 (100-B)',
           type: 'Lecture'
+        }
+      },
+      {
+        day: 'Saturday',
+        timeSlot: '10:45-1:15',
+        course: {
+          name: 'Fundamentals of Programming',
+          code: 'CSC1110',
+          instructor: 'Shaheer Ahmed Khan',
+          room: 'Room 108 (100-B)',
+          type: 'Lecture'
+        }
+      },
+      {
+        day: 'Friday',
+        timeSlot: '8:00-11:00',
+        course: {
+          name: 'Lab: Fundamentals of Programming',
+          code: 'CSC1110',
+          instructor: 'Ammar Rashid Qureshi',
+          room: 'Room 108 (100-B)',
+          type: 'Lab'
         }
       }
     ]
@@ -428,6 +495,28 @@ export const timetableData: TimetableData[] = [
           room: 'Room 408 (100-B)',
           type: 'Lecture'
         }
+      },
+      {
+        day: 'Saturday',
+        timeSlot: '10:45-1:15',
+        course: {
+          name: 'Fundamentals of Programming',
+          code: 'CSC1110',
+          instructor: 'Shaheer Ahmed Khan',
+          room: 'Room 108 (100-B)',
+          type: 'Lecture'
+        }
+      },
+      {
+        day: 'Friday',
+        timeSlot: '8:00-11:00',
+        course: {
+          name: 'Lab: Fundamentals of Programming',
+          code: 'CSC1110',
+          instructor: 'Ammar Rashid Qureshi',
+          room: 'Room 108 (100-B)',
+          type: 'Lab'
+        }
       }
     ]
   },
@@ -498,7 +587,7 @@ export const timetableData: TimetableData[] = [
         course: {
           name: 'Lab Software Design & Architecture',
           code: 'CSCL xxxx',
-          instructor: 'To be Assign',
+          instructor: 'Mr. Danish Shehzad',
           room: 'Lab 4 (100-B)',
           type: 'Lab'
         }
@@ -534,6 +623,17 @@ export const timetableData: TimetableData[] = [
     semester: 'IV',
     section: 'B',
     schedule: [
+      {
+        day: 'Monday',
+        timeSlot: '1:30-4:00',
+        course: {
+          name: 'Lab: Data Structures and Algorithms',
+          code: 'CSC xxxx',
+          instructor: '',
+          room: '',
+          type: 'Lecture'
+        }
+      },
       {
         day: 'Wednesday',
         timeSlot: '11:30-2:30',
@@ -595,9 +695,20 @@ export const timetableData: TimetableData[] = [
         course: {
           name: 'Lab Software Design & Architecture',
           code: 'CSCL xxxx',
-          instructor: 'To be Assign',
+          instructor: 'Mr. Danish Shehzad',
           room: 'Lab 3 (100-B)',
           type: 'Lab'
+        }
+      },
+      {
+        day: 'Saturday',
+        timeSlot: '8:00-10:30',
+        course: {
+          name: 'Data Structures and Algorithms',
+          code: 'CSC xxxx',
+          instructor: 'Shaheer Ahmed Khan',
+          room: '',
+          type: 'Lecture'
         }
       },
       {
@@ -630,6 +741,17 @@ export const timetableData: TimetableData[] = [
     semester: 'IV',
     section: 'C',
     schedule: [
+      {
+        day: 'Monday',
+        timeSlot: '1:30-4:00',
+        course: {
+          name: 'Lab: Data Structures and Algorithms',
+          code: 'CSC xxxx',
+          instructor: '',
+          room: '',
+          type: 'Lecture'
+        }
+      },
       {
         day: 'Tuesday',
         timeSlot: '8:00-11:00',
@@ -687,6 +809,17 @@ export const timetableData: TimetableData[] = [
       },
       {
         day: 'Saturday',
+        timeSlot: '8:00-10:30',
+        course: {
+          name: 'Data Structures and Algorithms',
+          code: 'CSC xxxx',
+          instructor: '',
+          room: '',
+          type: 'Lecture'
+        }
+      },
+      {
+        day: 'Saturday',
         timeSlot: '1:30-4:00',
         course: {
           name: 'Lab: Database Systems',
@@ -726,6 +859,17 @@ export const timetableData: TimetableData[] = [
     semester: 'IV',
     section: 'D',
     schedule: [
+      {
+        day: 'Monday',
+        timeSlot: '1:30-4:00',
+        course: {
+          name: 'lab: Data Structures and Algorithms',
+          code: 'CSC xxxx',
+          instructor: '',
+          room: '',
+          type: 'Lecture'
+        }
+      },
       {
         day: 'Tuesday',
         timeSlot: '8:00-11:00',
@@ -782,6 +926,28 @@ export const timetableData: TimetableData[] = [
         }
       },
       {
+        day: 'Friday',
+        timeSlot: '9:00-12:00',
+        course: {
+          name: 'Probability and Statistics',
+          code: 'CSC xxxx',
+          instructor: 'Mr. Syed Muhammad Naeem',
+          room: '',
+          type: 'Lecture'
+        }
+      },
+      {
+        day: 'Monday',
+        timeSlot: '8:00-10:30',
+        course: {
+          name: 'Shaheer Ahmed khan',
+          code: 'CSC xxxx',
+          instructor: '',
+          room: '',
+          type: 'Lecture'
+        }
+      },
+      {
         day: 'Saturday',
         timeSlot: '1:30-4:00',
         course: {
@@ -824,11 +990,11 @@ export const timetableData: TimetableData[] = [
     schedule: [
       {
         day: 'Monday',
-        timeSlot: '8:00-10:30',
+        timeSlot: '1:30-4:00',
         course: {
           name: 'Mobile Application Development - React Native',
           code: 'CSC xxxx',
-          instructor: 'To be Assign',
+          instructor: 'Mr. Ahsan Ali',
           room: 'Lab 4 (100-B)',
           type: 'Lab'
         }
@@ -867,18 +1033,7 @@ export const timetableData: TimetableData[] = [
         }
       },
       {
-        day: 'Friday',
-        timeSlot: '10:30-1:00',
-        course: {
-          name: 'Web Engineering',
-          code: 'CSC xxxx',
-          instructor: 'Mr. Danish Shehzad',
-          room: 'Lab 3 (100-B)',
-          type: 'Lab'
-        }
-      },
-      {
-        day: 'Friday',
+        day: 'Thursday',
         timeSlot: '3:00-6:00',
         course: {
           name: 'Information Security',
@@ -887,7 +1042,19 @@ export const timetableData: TimetableData[] = [
           room: 'ROOM-305 (100-B)',
           type: 'Lecture'
         }
-      }
+      },
+      {
+        day: 'Friday',
+        timeSlot: '10:30-1:00',
+        course: {
+          name: 'Web Engineering',
+          code: 'CSC xxxx',
+          instructor: 'Mr. Ali Fatmi',
+          room: 'Lab 3 (100-B)',
+          type: 'Lab'
+        }
+      },
+      
     ]
   },
   // BSSE-VI Section B
@@ -898,11 +1065,11 @@ export const timetableData: TimetableData[] = [
     schedule: [
       {
         day: 'Monday',
-        timeSlot: '1:30-4:00',
+        timeSlot: '6:30-9:30',
         course: {
           name: 'Mobile Application Development - Flutter',
           code: 'CSC xxxx',
-          instructor: 'Mr. Zubair Minhas',
+          instructor: 'Syed Talha Ali',
           room: 'Lab 4 (100-B)',
           type: 'Lab'
         }
@@ -946,7 +1113,7 @@ export const timetableData: TimetableData[] = [
         course: {
           name: 'Web Engineering',
           code: 'CSC xxxx',
-          instructor: 'Mr. Danish Shehzad',
+          instructor: 'Mr. Ali Fatmi',
           room: 'Lab-???',
           type: 'Lab'
         }
@@ -957,7 +1124,7 @@ export const timetableData: TimetableData[] = [
         course: {
           name: 'Professional Practices',
           code: 'CSC xxxx',
-          instructor: 'To be Assign',
+          instructor: 'Mr. Wakeel Badshah',
           room: 'ROOM-???',
           type: 'Lecture'
         }
